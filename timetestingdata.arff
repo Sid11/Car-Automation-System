@@ -1,0 +1,12 @@
+@relation CarAutomation
+
+@attribute traffic {high,medium,low}
+@attribute potholes {many,some,none}
+@attribute signals {1,2,3}
+@attribute weather {wet,dry}
+@attribute tyregrip {good,medium,bad}
+@attribute multiplicationfactor numeric
+
+@data
+high,many,1,wet,good,?
+high,many,1,wet,medium,?

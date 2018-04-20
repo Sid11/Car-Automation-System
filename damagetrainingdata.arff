@@ -1,0 +1,13 @@
+@relation CarAutomation
+
+@attribute potholes {many,some,none}
+@attribute weather {wet,dry}
+@attribute damage numeric
+
+@data
+many,wet,5
+many,dry,4
+some,wet,3
+some,dry,2
+none,wet,1
+none,dry,0
